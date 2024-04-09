@@ -1,0 +1,49 @@
+body {
+    background-color: #d6b4fc;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    font-family: verdana;
+
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: verdana;
+
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    color: white;
+}
+
+/* Styling the header */
+.site-header {
+    position: relative;
+    height: 300px;
+    /* Adjust the height as per your requirement */
+    background-color: lightpink;
+    /* Fallback color in case the background image doesn't load */
+    text-align: center;
+    border: 40px solid #d6b4fc;
+    /* pink border */
+    border-radius: 10px;
+    /* rounded corners */
+    padding: 10px;
+    /* add some padding to make it look nicer */
+}
+
+.header-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    /* Text color */
+}
